@@ -1,4 +1,4 @@
-# Thiyane Xavier — Portfolio
+# Thiyane Xavier Portfolio
 
 > *Scale, store and stream*  A personal portfolio website for a data engineer passionate about building scalable, reliable data pipelines.
 
