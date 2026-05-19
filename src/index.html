@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My portfolio</title>
+    <script defer src="index.js"></script>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <div id="header">
+        <h1 >Thiyane Xavier - Scale, store and stream</h1>
+        <nav >
+            <ul>
+                <li><a href="#home" >Home</a></li>
+                <li><a href="#about" >About Me</a></li>
+                <li><a href="#projects" >Projects</a></li>
+                <li><a href="#contact" >Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <div id="about">
+        <h2>About Me</h2>
+        <p>I am a passionate data engineer who loves building, scalable and reliable data piplines to ensure that businesses take the best data-driven decision.</p>
+        <img src="/img/Thiyane picture airport 19.12.JPG" alt="Picture of Thiyane">
+    </div>
+
+    <div id="projects">
+        <h2>My projects</h2>
+        <div class="project-card">
+        <div id="project1">
+            <h4><a href="https://github.com/Thiyane24/etl-pipeline-moz-economy" target="_blank">ETL pipeline using mozambican economic data</a></h4>
+            <img id="p1" id="Thiyane" src="/img/Untitled-2026-04-24-2157.png" alt="Mozambican ETL">
+            <p>This is an ETL (Extract, Transform, Load) pipeline that processes Mozambique's economic data from the World Bank. The pipeline extracts data from a CSV file, cleans and standardizes it, loads it into a database, and answers business questions about the data.</p>
+        </div>
+        <div id="project2">
+            <h4><a href="https://github.com/Thiyane24/CDI-ELT-Pipeline" target="_blank">Conversas de IT ELT pipeline</a></h4>
+            <img id="p2" src="/img/YT-ELT-Pipeline.png" alt="CDIT ELT">
+            <p>An automated ELT (Extract, Load, Transform) pipeline that pulls video stats from the YouTube Data API for Conversas de IT a Mozambican tech podcast that brings together tech experts from across Mozambique to discuss the industry, careers, and technology. The pipeline extracts video metrics (views, likes, and comments), loads them into a PostgreSQL database, and transforms them all orchestrated with Apache Airflow, containerised with Docker, and automated with a GitHub Actions CI/CD pipeline.</p>
+        </div>
+        <div id="project3">
+            <h4><a href="https://github.com/Thiyane24/ETL-pipeline-football-api" target="_blank">Premier league API ETL pipeline</a></h4>
+            <img id="p3" src="/img/API pipeline architecture.png" alt="ETL pipeline">
+            <p>An end-to-end data engineering pipeline that extracts Premier League top scorer data from the API-Football API, processes it through a medallion architecture, loads it into a local analytical warehouse, and visualises insights in Power BI.</p>
+        </div></div>
+    </div>
+
+    <div id="contact">
+        <h2>Contact Me</h2>
+        <p>Email: <a href="mailto:thiyane97@gmail.com">thiyane97@gmail.com</a></p>
+        <p>WhatsApp: <a href="https://wa.link/6ncwlm" target="_blank">+60 17671 0951</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/thiyane-xavier/" target="_blank">linkedin.com/in/thiyane-xavier</a></p>
+        <p>GitHub: <a href="https://github.com/Thiyane24" target="_blank">github.com/Thiyane24</a></p>
+    </div>
+    <div id="error"></div>
+    <div id="form">
+        <h2>Send me a message</h2>
+        <form action="index.html" method="POST">
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name"><br><br>
+            <label for="telephone">Phone number: </label>
+            <input type="tel" id="telephone" name="telephone"><br><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="_replyto"><br><br>
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="4" ></textarea><br><br>
+            <input type="submit" value="Send">
+        </form> 
+    </div>
+    <footer>
+        <p>&copy; 2026 Thiyane Xavier. All rights reserved.</p>
+    </footer>
+</body>
+</html>
