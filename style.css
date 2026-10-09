@@ -287,3 +287,16 @@ ul, ol { list-style: none; }
     .hero-name { animation: none; }
     * { transition: none !important; }
 }
+
+/* Email fallback popup */
+.mail-modal {
+    position: fixed; inset: 0; z-index: 200; display: grid; place-items: center; padding: 1rem;
+    background: rgba(10, 10, 10, 0.6);
+}
+.mail-modal[hidden] { display: none; }
+.mail-box {
+    width: min(100%, 28rem); background: var(--white); border: var(--b) solid var(--ink);
+    box-shadow: 8px 8px 0 var(--ink); padding: 1.5rem; display: grid; gap: 1rem;
+}
+.mail-addr { font-weight: 600; overflow-wrap: anywhere; }
+.mail-note { min-height: 1.5em; font-size: 0.85rem; }
