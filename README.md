@@ -2,8 +2,7 @@
 
 > *Scale, store and stream*  A personal portfolio website for a data engineer passionate about building scalable, reliable data pipelines.
 
-**Live Site:** [thiyane-xavier.github.io](https://thiyane24.github.io/Thiyane_Xavier-Portofolio) *(update with your live URL)*
-
+**Live Site** : https://thiyane24.github.io/Thiyane_Xavier-Portofolio/
 ---
 
 ## About
