@@ -183,7 +183,7 @@ ul, ol { list-style: none; }
 .slide { flex: 0 0 100%; scroll-snap-align: start; padding-right: 3px; }
 .slide-media { border: var(--b) solid var(--ink); background-color: var(--red); padding: 0.75rem; }
 .slide-frame { border: var(--b) solid var(--ink); aspect-ratio: 16 / 9; overflow: hidden; background-color: var(--white); }
-.slide-frame img { width: 100%; height: 100%; object-fit: cover; }
+.slide-frame img { width: 100%; height: 100%; object-fit: contain; background-color: var(--white); }
 .slide-body { padding-top: 1.1rem; }
 .slide-title {
     font-family: var(--display); font-size: 1.3rem; line-height: 1.15; font-weight: 800; text-transform: uppercase;
